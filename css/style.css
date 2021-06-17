@@ -69,3 +69,20 @@ footer {
     height: 100px;
     background-color: #282828;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 576px) {
+     .col-md-3 {
+        width: 130px;
+        max-width: 130px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .col-lg-2 {
+        width: 130px;
+        max-width: 130px;
+    }
+}
