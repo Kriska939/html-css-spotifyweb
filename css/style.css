@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Fluid Container */
 .container-fluid {
     width: 100%;
