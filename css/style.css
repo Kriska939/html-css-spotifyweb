@@ -10,6 +10,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
 /* Wrapper */
 .wrapper {
     height: calc(100vh - 100px);
@@ -79,6 +84,36 @@ main {
     overflow-y: auto;
 }
 
+#container-main-page {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 100px;
+}
+
+#menu {
+    color: grey;
+    font-size: 14px;
+    font-weight: 600;
+    
+    justify-content: center;
+    line-height: 80px;
+}
+
+#menu span {
+    margin-left: 40px;
+}
+
+.album-row {
+    flex-wrap: wrap;
+}
+
+/* COLUMNS GRID */
+
+.col-sm-6 {
+    width: calc((100% / 12)* 6);
+    max-width: calc((100% / 12)* 6);
+}
+
 /* FOOTER */
 
 footer {
@@ -91,4 +126,5 @@ footer {
 @media screen and (min-width: 576px) {
     nav {
         width: 200px;
+    }
 }
