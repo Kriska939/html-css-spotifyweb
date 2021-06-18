@@ -10,11 +10,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
+h2, h5 {
     color: white;
-    margin-bottom: 20px;
-    margin-left: 20px;
 }
+
+.col {
+    margin-bottom: 20px;
+}
+
 
 /* Wrapper */
 .wrapper {
@@ -107,22 +110,27 @@ main {
 .album-row {
     flex-wrap: wrap;
     text-align: center;
+    flex-basis: 100%;
 }
 
 img {
     width: 180px;
 }
 
+.round-image {
+    border-radius: 50%;
+}
+
+.site-section {
+    flex-wrap: wrap;
+}
+
 .subtitle {
-    margin-bottom: 20px;
+    font-size: 13px;
+    color: grey;
+    font-weight: 600;
 }
 
-/* COLUMNS GRID */
-
-.col-sm-6 {
-    width: calc((100% / 12)* 6);
-    max-width: calc((100% / 12)* 6);
-}
 
 /* FOOTER */
 

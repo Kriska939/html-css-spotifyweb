@@ -9,6 +9,7 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/personal-library.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Spotify</title>
 </head>
@@ -46,8 +47,10 @@
                 </div>
 
                 <!-- SEZIONI VARIE -->
-                <section id="recently-played">
-                    <h2>Recently Played</h2>
+                <section class="site-section flex">
+                    <div class="col-sm-12">
+                        <h2>Recently Played</h2>
+                    </div>
                     <div class="album-row flex">
                         <div class="col col-sm-6">
                             <img src="./img/metal_lifting.jpg" alt="Album Metal">
@@ -87,12 +90,39 @@
 
                     </div>
                 </section>
-                <section id="created-for">
-                    <h2>Creato per John Doe</h2>
+                <section class="site-section flex">
+                    <div class="col-sm-12">
+                        <h2>Creato per John Doe</h2>
+                        <p class="subtitle">Più ascolti, più accurati saranno i suggerimenti</p>
+                    </div>
+                    <div class="album-row flex">
+                        <div class="col col-sm-6">
+                            <img src="./img/radar.jpeg" alt="Radar Playlist">
+                            <h5>Release Radar</h5>
+                        </div>
+                        <div class="col col-sm-6">
+                            <img src="./img/mixdaily.jpeg" alt="Daily Mix">
+                            <h5>Daily Mix 1</h5>
+                        </div>
+                    </div>
                 </section>
-                <section id="popular artists">
-                    <h2>Artisti più popolari</h2>
+                <section class="site-section flex">
+                    <div class="col-sm-12">
+                        <h2>Artisti più popolari</h2>
+                        <p class="subtitle">Più ascolti, più accurati saranno i suggerimenti</p>
+                    </div>
+                    <div class="album-row flex">
+                        <div class="col col-sm-6">
+                            <img src="./img/youg.jpeg" class="round-image" alt="Lana del Rey">
+                            <h5>Lana del Rey</h5>
+                        </div>
+                        <div class="col col-sm-6">
+                            <img src="./img/einaudi.jpeg" class="round-image" alt="Einaudi">
+                            <h5>Ludovico Einaudi</h5>
+                        </div>
+                    </div>
                 </section>
+
             </div>
         </main>
     </div>
