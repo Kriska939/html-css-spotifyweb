@@ -17,8 +17,8 @@ h2, h5 {
 
 .col {
     margin-bottom: 20px;
+    margin-left: 10px;
     width: 180px;
-    
 }
 
 .col h5, .col p {
@@ -136,13 +136,17 @@ img {
 
 .site-section {
     flex-wrap: wrap;
-    margin-left: 20px;
 }
 
 .subtitle, .long-subtitle {
     font-size: 13px;
     color: grey;
     font-weight: 600;
+}
+
+.col-sm-12 .long-subtitle {
+    width: 100%;
+    text-align: left;
 }
 
 .col-special {
@@ -173,4 +177,14 @@ footer {
 
 @media screen and (min-width: 960px) {
 
+    .offset-6 {
+        margin-right: calc(100% /12 *6);
+    }
+}
+
+@media screen and (min-width: 1390px) {
+
+    .offset-0 {
+        margin-right: calc(100% /12 *0);
+    }
 }
