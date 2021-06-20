@@ -26,6 +26,10 @@ h2, h5 {
     text-align: center;
 }
 
+.inline {
+    display:inline-block;
+}
+
 /* Wrapper */
 .wrapper {
     height: calc(100vh - 100px);
@@ -39,6 +43,7 @@ h2, h5 {
     width: 25px;
 }
 
+
 /* FLEX */
 
 .flex {
@@ -51,6 +56,10 @@ h2, h5 {
 
 .j-end {
     justify-content: flex-end;
+}
+
+.j-between {
+    justify-content: space-between;
 }
 
 /* HEADER */
@@ -159,6 +168,102 @@ img {
 footer {
     height: 100px;
     background-color: #282828;
+}
+
+.footer-element {
+    margin-left: 10px;
+    font-size: 14px;
+    height: 100%;
+    align-items: center;
+}
+
+.footer-element .tiny-img {
+    width: 30%;
+    margin-right: 5px;
+}
+
+h6 {
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+footer p {
+    color: grey;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.fa-heart, .fa-folder {
+    color: grey;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+.white {
+    color: white;
+}
+
+
+.footer-section {
+    width: 25%
+}
+
+#footer-central-section {
+    width: 50%;
+
+}
+
+#player-icons, .player-bar {
+    height: 50%;
+    justify-content: center;
+}
+
+#player-icons {
+    margin-left: 0;
+}
+
+#player-icons i {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#player-icons .big-icon {
+    font-size: 32px;
+}
+
+
+.timer {
+    font-size: 10px;
+    font-weight: 800;
+    margin: 0 15px;
+}
+
+.bar {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 8px;
+    height: 5px;
+    background-color: white;
+    margin-top: 3px;
+}
+
+.colored-bar {
+    width: 30%;
+    max-width: 300px;
+    border-radius: 5px;
+    height: 5px;
+    background-color: grey;
+
+}
+
+#display-icons i {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.m-5 {
+    margin: 0 5px;
 }
 
 /* MEDIA QUERIES */
