@@ -30,6 +30,10 @@ h2, h5 {
     display:inline-block;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Wrapper */
 .wrapper {
     height: calc(100vh - 100px);
@@ -147,7 +151,7 @@ img {
     flex-wrap: wrap;
 }
 
-.subtitle, .long-subtitle {
+.subtitle, .long-subtitle, .nav-icons span {
     font-size: 13px;
     color: grey;
     font-weight: 600;
@@ -271,8 +275,21 @@ footer p {
 @media screen and (min-width: 576px) {
     nav {
         width: 200px;
+        text-align: left;
+    }
+
+    .hidden {
+        display: inline-block;
     }
     
+    .hide-sm {
+        display: none;
+    }
+
+    #spotify-logo-resize {
+        width: 120px;
+        margin-left: 30px;
+    }
 }
 
 @media screen and (min-width: 768px) {
