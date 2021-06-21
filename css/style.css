@@ -113,7 +113,7 @@ nav {
     height: 100%;
     justify-content: space-between;
     text-align: center;
-    z-index: 1;
+    z-index: 2;
     flex-shrink:0;
 }
 
@@ -135,6 +135,7 @@ nav {
 .fa-plus {
     background-color: grey;
     padding: 8px 8px;
+    color: black;
 }
 
 
@@ -198,7 +199,7 @@ main {
     padding: 0 15px;
 }
 
-.subtitle, .long-subtitle, .nav-icons span, ul li {
+.subtitle, .long-subtitle, .nav-icons, ul li {
     font-size: 13px;
     color: grey;
     font-weight: 600;
@@ -383,6 +384,21 @@ footer p {
     
      #play-container:hover .play-hover {
          display: inline-block;
+     }
+
+     .hover-white:hover {
+        cursor: pointer;
+        color: white;
+        filter: brightness(0) invert(1);
+     }
+
+     .hover-white-special:hover > .fa-plus, .hover-white-special:hover span  {
+         color: white; 
+         cursor: pointer;
+     }
+
+     .username {
+         color: white;
      }
 
 }
