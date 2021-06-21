@@ -110,7 +110,6 @@ nav {
 /* MAIN */
 
 main {
-    width: 100%;
     background-color: #141922;
     overflow-y: auto;
 }
@@ -136,7 +135,11 @@ main {
 
 .album-row {
     flex-wrap: wrap;
-    flex-basis: 100%;
+}
+
+.col-sm-12 {
+    width: calc((100% / 12)* 12);
+    max-width: calc((100% / 12)* 12);
 }
 
 img {
@@ -160,11 +163,6 @@ img {
 .col-sm-12 .long-subtitle {
     width: 100%;
     text-align: left;
-}
-
-.col-special {
-    width: 200px;
-    flex-grow: 0;
 }
 
 /* FOOTER */
