@@ -361,8 +361,14 @@ footer p {
         transform:scale(1.2);
     }
 
+    #menu span:hover {
+        color: white;
+        cursor:pointer;
+    }
+
     .album-row img:hover {
         opacity: 0.3;
+        cursor:pointer;
     }
 
 }
