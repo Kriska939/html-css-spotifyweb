@@ -371,6 +371,11 @@ footer p {
         cursor:pointer;
     }
 
+    .col:hover .play-hover {
+        display: inline-block;
+        cursor:pointer;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
