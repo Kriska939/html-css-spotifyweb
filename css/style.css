@@ -101,10 +101,15 @@ nav {
 
 #user-icon {
     background-color: grey;
-    height: 30px;
-    width: 33px;
+    height: 25px;
+    width: 28px;
     border-radius: 50%;
 }
+
+#user-icon-section {
+    margin-bottom: 5px;
+}
+
 
 
 /* MAIN */
@@ -275,8 +280,13 @@ footer p {
 
 @media screen and (min-width: 576px) {
     nav {
-        width: 200px;
+        width: 180px;
         text-align: left;
+        flex-shrink: 0;
+    }
+
+    .nav-icons {
+        margin-left: 10px;
     }
 
     .hidden {
@@ -289,7 +299,14 @@ footer p {
 
     #spotify-logo-resize {
         width: 120px;
-        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    hr {
+        border-color: rgb(56, 56, 56);
+        margin: 5px 0;
+        margin-right: 10px;
     }
 }
 
@@ -297,6 +314,7 @@ footer p {
 .col {
     flex-basis: 25%;
 }
+
 }
 
 @media screen and (min-width: 960px) {
