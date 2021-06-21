@@ -110,6 +110,18 @@ nav {
     margin-bottom: 5px;
 }
 
+.fa-plus {
+    background-color: grey;
+    padding: 8px 8px;
+}
+
+ul li {
+ margin-top: 5px;    
+}
+
+.playlist-title {
+    margin-bottom: 5px;
+}
 
 
 /* MAIN */
@@ -162,7 +174,7 @@ main {
     padding: 0 15px;
 }
 
-.subtitle, .long-subtitle, .nav-icons span {
+.subtitle, .long-subtitle, .nav-icons span, ul li {
     font-size: 13px;
     color: grey;
     font-weight: 600;
