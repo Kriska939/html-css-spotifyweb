@@ -302,7 +302,18 @@ footer p {
     border-radius: 5px;
     height: 5px;
     background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
+.dot {
+    width: 10px;
+    background-color:rgb(156, 240, 156);
+    height: 10px;
+    border-radius: 50%;
+    display:none;
+    
 }
 
 #display-icons i {
@@ -408,6 +419,10 @@ footer p {
 
      .colored-bar:hover {
          background-color:rgb(156, 240, 156);
+     }
+
+     .colored-bar:hover .dot {
+         display: inline-block;
      }
 }
 
