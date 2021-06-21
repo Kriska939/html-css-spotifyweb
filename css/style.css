@@ -30,8 +30,14 @@ h2, h5 {
     display:inline-block;
 }
 
-.hidden {
-    display: none;
+
+.active {
+    height: 2px;
+    width: 40%;
+    background-color: rgb(32, 238, 32);
+    align-self: center;
+    margin-left: 40px;
+    margin-top: -10px;
 }
 
 /* Wrapper */
@@ -97,6 +103,7 @@ nav {
     justify-content: space-between;
     text-align: center;
     z-index: 1;
+    flex-shrink:0;
 }
 
 #user-icon {
@@ -104,6 +111,10 @@ nav {
     height: 25px;
     width: 28px;
     border-radius: 50%;
+}
+
+#down-icon {
+    margin-left: -5px;
 }
 
 #user-icon-section {
@@ -286,6 +297,10 @@ footer p {
 
 .m-5 {
     margin: 0 5px;
+}
+
+.hidden {
+    display: none;
 }
 
 /* MEDIA QUERIES */
