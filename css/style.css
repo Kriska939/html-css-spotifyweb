@@ -53,6 +53,10 @@ h2, h5 {
     width: 25px;
 }
 
+.p-rel {
+    position: relative;
+}
+
 
 /* FLEX */
 
@@ -126,8 +130,10 @@ nav {
     padding: 8px 8px;
 }
 
-ul li {
- margin-top: 5px;    
+
+#playlist-list li {
+ margin-top: 5px; 
+ list-style-type: none;   
 }
 
 .playlist-title {
@@ -194,6 +200,15 @@ main {
     .long-subtitle {
     width: 100%;
     text-align: left;
+}
+
+.play-hover {
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
 }
 
 /* FOOTER */
@@ -299,9 +314,10 @@ footer p {
     margin: 0 5px;
 }
 
-.hidden {
+.hidden, .play-hover {
     display: none;
 }
+
 
 /* MEDIA QUERIES */
 
@@ -335,6 +351,20 @@ footer p {
         margin: 5px 0;
         margin-right: 10px;
     }
+
+    .btn-transparent {
+        margin-right: 2%;
+    }
+
+    .btn-transparent:hover {
+        cursor: pointer;
+        transform:scale(1.2);
+    }
+
+    .album-row img:hover {
+        opacity: 0.3;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
